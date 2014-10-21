@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE546E7D19F6AA5F00B371D4 /* NSObject+Hydrate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE546E7C19F6AA5F00B371D4 /* NSObject+Hydrate.m */; };
+		EE546E7F19F6AC2E00B371D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE546E7E19F6AC2E00B371D4 /* CoreData.framework */; };
+		EE546E8219F6AC4C00B371D4 /* NSManagedObject+Hydrate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE546E8119F6AC4C00B371D4 /* NSManagedObject+Hydrate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE546E6219F6AA4B00B371D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE546E6419F6AA4B00B371D4 /* libNSObject+Hydrate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNSObject+Hydrate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE546E6F19F6AA4B00B371D4 /* NSObject+HydrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject+HydrateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE546E7219F6AA4B00B371D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE546E7B19F6AA5F00B371D4 /* NSObject+Hydrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Hydrate.h"; sourceTree = "<group>"; };
+		EE546E7C19F6AA5F00B371D4 /* NSObject+Hydrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Hydrate.m"; sourceTree = "<group>"; };
+		EE546E7E19F6AC2E00B371D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE546E8019F6AC4C00B371D4 /* NSManagedObject+Hydrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Hydrate.h"; sourceTree = "<group>"; };
+		EE546E8119F6AC4C00B371D4 /* NSManagedObject+Hydrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Hydrate.m"; sourceTree = "<group>"; };
+		EE546E8319F6ACC800B371D4 /* NSObject+Hydrate.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NSObject+Hydrate.podspec"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE546E6119F6AA4B00B371D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE546E7F19F6AC2E00B371D4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE546E6C19F6AA4B00B371D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE546E5B19F6AA4B00B371D4 = {
+			isa = PBXGroup;
+			children = (
+				EE546E8319F6ACC800B371D4 /* NSObject+Hydrate.podspec */,
+				EE546E7E19F6AC2E00B371D4 /* CoreData.framework */,
+				EE546E6619F6AA4B00B371D4 /* NSObject+Hydrate */,
+				EE546E7019F6AA4B00B371D4 /* NSObject+HydrateTests */,
+				EE546E6519F6AA4B00B371D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE546E6519F6AA4B00B371D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE546E6419F6AA4B00B371D4 /* libNSObject+Hydrate.a */,
+				EE546E6F19F6AA4B00B371D4 /* NSObject+HydrateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE546E6619F6AA4B00B371D4 /* NSObject+Hydrate */ = {
+			isa = PBXGroup;
+			children = (
+				EE546E7B19F6AA5F00B371D4 /* NSObject+Hydrate.h */,
+				EE546E7C19F6AA5F00B371D4 /* NSObject+Hydrate.m */,
+				EE546E8019F6AC4C00B371D4 /* NSManagedObject+Hydrate.h */,
+				EE546E8119F6AC4C00B371D4 /* NSManagedObject+Hydrate.m */,
+			);
+			path = "NSObject+Hydrate";
+			sourceTree = "<group>";
+		};
+		EE546E7019F6AA4B00B371D4 /* NSObject+HydrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE546E7119F6AA4B00B371D4 /* Supporting Files */,
+			);
+			path = "NSObject+HydrateTests";
+			sourceTree = "<group>";
+		};
+		EE546E7119F6AA4B00B371D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE546E7219F6AA4B00B371D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE546E6319F6AA4B00B371D4 /* NSObject+Hydrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE546E7519F6AA4B00B371D4 /* Build configuration list for PBXNativeTarget "NSObject+Hydrate" */;
+			buildPhases = (
+				EE546E6019F6AA4B00B371D4 /* Sources */,
+				EE546E6119F6AA4B00B371D4 /* Frameworks */,
+				EE546E6219F6AA4B00B371D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSObject+Hydrate";
+			productName = "NSObject+Hydrate";
+			productReference = EE546E6419F6AA4B00B371D4 /* libNSObject+Hydrate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE546E6E19F6AA4B00B371D4 /* NSObject+HydrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE546E7819F6AA4B00B371D4 /* Build configuration list for PBXNativeTarget "NSObject+HydrateTests" */;
+			buildPhases = (
+				EE546E6B19F6AA4B00B371D4 /* Sources */,
+				EE546E6C19F6AA4B00B371D4 /* Frameworks */,
+				EE546E6D19F6AA4B00B371D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSObject+HydrateTests";
+			productName = "NSObject+HydrateTests";
+			productReference = EE546E6F19F6AA4B00B371D4 /* NSObject+HydrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE546E5C19F6AA4B00B371D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jakub Knejzlik";
+				TargetAttributes = {
+					EE546E6319F6AA4B00B371D4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EE546E6E19F6AA4B00B371D4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EE546E5F19F6AA4B00B371D4 /* Build configuration list for PBXProject "NSObject+Hydrate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE546E5B19F6AA4B00B371D4;
+			productRefGroup = EE546E6519F6AA4B00B371D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE546E6319F6AA4B00B371D4 /* NSObject+Hydrate */,
+				EE546E6E19F6AA4B00B371D4 /* NSObject+HydrateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE546E6D19F6AA4B00B371D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE546E6019F6AA4B00B371D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE546E7D19F6AA5F00B371D4 /* NSObject+Hydrate.m in Sources */,
+				EE546E8219F6AC4C00B371D4 /* NSManagedObject+Hydrate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE546E6B19F6AA4B00B371D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE546E7319F6AA4B00B371D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE546E7419F6AA4B00B371D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE546E7619F6AA4B00B371D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE546E7719F6AA4B00B371D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EE546E7919F6AA4B00B371D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSObject+HydrateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE546E7A19F6AA4B00B371D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSObject+HydrateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE546E5F19F6AA4B00B371D4 /* Build configuration list for PBXProject "NSObject+Hydrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE546E7319F6AA4B00B371D4 /* Debug */,
+				EE546E7419F6AA4B00B371D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE546E7519F6AA4B00B371D4 /* Build configuration list for PBXNativeTarget "NSObject+Hydrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE546E7619F6AA4B00B371D4 /* Debug */,
+				EE546E7719F6AA4B00B371D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE546E7819F6AA4B00B371D4 /* Build configuration list for PBXNativeTarget "NSObject+HydrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE546E7919F6AA4B00B371D4 /* Debug */,
+				EE546E7A19F6AA4B00B371D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE546E5C19F6AA4B00B371D4 /* Project object */;
+}
