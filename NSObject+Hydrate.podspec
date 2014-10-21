@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Jakub Knejzlik" => "jakub.knejzlik@gmail.com" }
   s.source       = { :git => "https://github.com/jakubknejzlik/NSObject-Hydrate.git", :tag => "0.0.1" }
-  s.source_files  = NSObject+Hydrate/*.{h,m}"
+  s.source_files  = "NSObject+Hydrate/*.{h,m}"
   s.framework  = "CoreData"
 end
