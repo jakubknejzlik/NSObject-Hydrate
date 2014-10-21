@@ -27,6 +27,7 @@
     }
 }
 
+
 -(NSArray*)hyd_getPropertiesOfClass:(Class)objectClass
 {
     unsigned int outCount, i;
