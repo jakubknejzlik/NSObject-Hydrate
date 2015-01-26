@@ -16,10 +16,9 @@
     [self hydrateObjectWithData:data withMapping:nil];
 }
 -(void)hydrateObjectWithData:(id)data withMapping:(NSDictionary *)mapping{
-    for (NSString *propName in [self hyd_getPropertiesOfClass:[self class]]) {
-        NSString *mappedPropName = propName;
-        if(mapping)mappedPropName = mapping[propName];
-        id value = data[mappedPropName];
+    for (NSString *propName in mapping) {
+        NSString *mappedPropName = mapping[propName];
+        id value = [data valueForKey:mappedPropName];
         if(value){
             if([value isKindOfClass:[NSNull class]])[self setNilValueForKey:propName];
             else [self setValue:value forKey:propName];
