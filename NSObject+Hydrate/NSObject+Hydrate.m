@@ -20,7 +20,7 @@
         NSString *mappedPropName = mapping[propName];
         id value = [data valueForKey:mappedPropName];
         if(value){
-            if([value isKindOfClass:[NSNull class]])[self setNilValueForKey:propName];
+            if([value isKindOfClass:[NSNull class]])[self setValue:nil forKey:propName];
             else [self setValue:value forKey:propName];
         }
     }
