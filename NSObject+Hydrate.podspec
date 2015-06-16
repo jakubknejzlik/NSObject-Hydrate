@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSObject+Hydrate"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Hydratation function for NSObject and NSManagedObject."
 
   s.description  = <<-DESC

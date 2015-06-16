@@ -20,8 +20,13 @@
         NSString *mappedPropName = mapping[propName];
         id value = [data valueForKey:mappedPropName];
         if(value){
-            if([value isKindOfClass:[NSNull class]])[self setValue:nil forKey:propName];
-            else [self setValue:value forKey:propName];
+            @try {
+                if([value isKindOfClass:[NSNull class]])[self setValue:nil forKey:propName];
+                else [self setValue:value forKey:propName];
+            }
+            @catch (NSException *exception) {
+                NSLog(@"couldn't set value %@ for key %@",value,propName);
+            }
         }
     }
 }
